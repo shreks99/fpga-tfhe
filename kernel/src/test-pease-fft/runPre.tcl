@@ -1,0 +1,1 @@
+config_cosim -rtl vhdl
