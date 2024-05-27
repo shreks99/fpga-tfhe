@@ -6,7 +6,7 @@ Fully Homomorphic Encryption (FHE) offers a revolutionary approach to secure dat
 ## Introduction
 In the digital era, where data privacy and security have become paramount, the demand for advanced encryption technologies has never been higher. Fully Homomorphic Encryption (FHE) stands at the forefront of this demand, offering a revolutionary solution that allows computations on encrypted data without the need to decrypt it first. Among the various FHE schemes, TFHE (Fully Homomorphic Encryption over the Torus) is particularly noted for its efficiency and adaptability, making it an attractive candidate for practical applications.
 
-![Use Case of FHE](url-to-figure)
+![Use Case of FHE](image.png)
 
 This project focuses on the FPGA (Field-Programmable Gate Array) implementation of TFHE. FPGAs, with their parallel processing capabilities and reconfigurability, provide an ideal platform for accelerating the computationally intensive operations inherent in homomorphic encryption algorithms. By translating TFHE's original C/C++ implementation into a form amenable for High-Level Synthesis (HLS) using Vivado HLS, this project aims to harness the power of AMD/Xilinx Alveo U250 and U280 FPGA platforms to significantly enhance TFHE's performance.
 
