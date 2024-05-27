@@ -29,7 +29,7 @@ The core objective of this project is to convert the TFHE (Fast Fully Homomorphi
 - **tfhe_blindRotate_FFT**: The entry point to the blind rotation operation, a complex procedure involving multiple dependent steps and intricate memory management, which makes it one of the more challenging parts to port.
 - **tfhe_MuxRotate_FFT**: Calls upon `tLweMulByXaiMinusOne` and `tGswFFTExternMulToTLwe`, among other functions, to perform the bulk of the bootstrapping computations. Each function presents unique challenges in translating them efficiently into HLS-compatible operations.
 
-![Functions with their porting difficulties](url-to-figure)
+![Functions with their porting difficulties](portdiff.png)
 
 Porting difficulties arise primarily from three aspects:
 
